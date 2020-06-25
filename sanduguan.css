@@ -1,0 +1,251 @@
+*{
+    transition: all .5s ease-in-out;
+}
+#mainNav {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    background-color:white;
+}
+#mainNav .navbar-toggler:focus {
+    outline: none;
+
+}
+#mainNav .navbar-brand {
+    font-weight: 1000;
+    padding: .9rem 0;
+}
+#mainNav .navbar-nav {
+    font-weight: 1000;
+    padding: .9rem 0;
+}
+#mainNav .navbar-nav{
+    font-weight: 500;
+    padding: .9rem 0;
+}
+#mainNav .navbar-nav {
+    font-weight: 500;
+}
+@media screen and (max-width: 992px){
+    #mainNav{
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand{
+        padding: 0px;
+        color:#a5243d;
+    }
+    #mainNav .navbar-brand .logo{
+        height: 60px !important;
+        width: 50px !important;
+    }
+    #mainNav .nav-link {
+        font-weight: 500px;
+        transition: none;
+        padding: 0.5rem 1.5rem;
+        color: #a5243d;
+    }
+    .content{
+        padding-top: 50px !important;
+    }
+   
+}
+
+@media(min-width: 992px){
+    #mainNav{
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: transparent;
+        transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand{
+        padding: .5rem 0;
+        color: #a5243d;
+    }
+    #mainNav .nav-link {
+        transition: none;
+        padding: 2rem 1.5rem;
+        color: #a5243d;
+    }
+    #mainNav .nav-link:hover {
+        color: rgba(255, 255, 255, 0.75);
+    }
+    #mainNav .nav-link:active {
+        color: white;
+    }
+    #mainNav.navbar-shrink {
+        height: 50px;
+        background-color:white;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        color: #a5243d;
+    }
+    #mainNav.navbar-shrink .navbar-brand  .logo{
+        width: 50px !important;
+        height: 60px !important;
+    }
+    #mainNav.navbar-shrink .nav-link {
+        color: #a5243d;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+    }
+}
+@media(max-width:425px){
+    .receipt{
+        margin: 0px 60px 0px 80px !important;
+    }
+    .masthead h1{
+        font-size: 40px !important;
+    }
+    #carousel img{
+        width: 400px !important;
+    }
+}
+@media(max-width:425px){
+    .receipt{
+        margin: 0px 40px 0px 60px !important;
+    }
+}
+.masthead {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: url("img/blooddonation3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.masthead h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    color:white;
+}
+.masthead span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 40px;
+}
+.content{
+    padding-top: 80px;
+}
+.car{
+    margin-top: 57px; 
+    margin-bottom: 50px;
+}
+.head{
+    margin: 220px 0px 250px 0px;
+}
+#carousel > img{
+    width: 800px;
+    height: 550px;
+}
+@media (max-width: 768px){
+    #content1 .car{
+        margin: 0px;
+    }
+    #content1 .head{
+        margin: 0px;
+    }
+    #carousel{
+        margin-bottom: 50px;
+    }
+    #carousel img{
+        padding-top: 10px;
+        width: 800px;
+        height: 300px !important;
+    }
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+.more-content{
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+.more-content .project-text {
+    padding: 3rem;
+    font-size: 90%;
+}
+@media (min-width: 992px) {
+    .more-content .project-text {
+      padding: 5rem;
+    }
+    .more-content .project-text hr {
+      border-color:#a5243d;
+      border-width: .25rem;
+      width: 30%;
+    }
+}
+.conetent-last {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(165, 36, 61, 0.1) 0%, rgba(165, 36, 61, 0.1) 75%, #a5243d 100%), url("img/bd3.1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.conetent-last h1{
+    font-size: 80px;
+    font-weight: 500px;
+}
+.bg {
+    background-color: #a5243d !important;
+}
+.contact-section {
+    padding: 5rem 0 0;
+}
+.contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #a5243d;
+}
+.contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+  
+.contact-section .card hr {
+    border-color: #a5243d;
+    border-width: 0.25rem;
+    width: 3rem;
+}
+  
+.contact-section .social {
+    margin-top: 5rem;
+}
+  
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a img{
+    height: 50px;
+    width: 50px;
+}
+  
+.contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+  
+.contact-section .social a:active {
+    color: #fff;
+}
+footer {
+    padding: 5rem 0;
+}
+  
